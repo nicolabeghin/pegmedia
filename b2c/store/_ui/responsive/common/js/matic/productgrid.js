@@ -212,8 +212,8 @@ function centrascopribox(){
 function margineelencoprd(){
     jQuery( ".prd").each(function() {
         var margineprd=jQuery(this).children(".contnomeprd").height();
-        jQuery(this).children(".contnomeprd").css("bottom",-margineprd);
-        jQuery(this).css("margin-bottom",margineprd);
+        //jQuery(this).children(".contnomeprd").css("bottom",-margineprd);
+        //jQuery(this).css("margin-bottom",margineprd);
     });
 }
 function posizionascrollbottom(){

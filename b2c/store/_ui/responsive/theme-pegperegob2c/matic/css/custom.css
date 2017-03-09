@@ -11451,6 +11451,8 @@ body.firefox #pagina main#prodotto #caratteristiche .contabscaratteristiche .tab
     top: -21px !important;
 }
 
+#pagina main#elencocategoria .prd .corniceimgprd{margin-bottom:118px !important;}
+
 /* XS < 768px
  * SM â‰¥ 768px
  * MD â‰¥ 992px
