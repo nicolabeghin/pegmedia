@@ -535,7 +535,9 @@ jQuery(window).load(function(){
     margineelencoprd();
     centraevidenza();
     /*scroll bar*/
-    jQuery('.partedescrittiva').perfectScrollbar({maxScrollbarLength:16,includePadding: true});
+	if( jQuery(window).width() > 767){
+		jQuery('.partedescrittiva').perfectScrollbar({maxScrollbarLength:16,includePadding: true});
+	}
     jQuery('.descrizionecaratteristicatesto').perfectScrollbar({maxScrollbarLength:16,includePadding: true,suppressScrollX:true});
     scrolltobottomcambiaclasse();
     /*fine scrollbar */
